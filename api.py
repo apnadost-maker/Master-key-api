@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 TOKEN_EXPIRY_MINUTES = 20  
 KEY_EXPIRY_DAYS = 1
-SHORTENER_API_KEY = "365fb9d294e5a0288cb08be3e55f683d627fdc4a"
+SHORTENER_API_KEY = "e989a16fb4aa879fa7cde5ee739a157e0392f091"
 
 MONGODB_URI = "mongodb+srv://test:Bu&Hr!WFwdySyz8@cluster0.pofxanv.mongodb.net/?appName=Cluster0"
 DATABASE_NAME = "key_database"
