@@ -7,7 +7,7 @@ class MongoDBHandler:
         """
         Initialize MongoDB connection with MongoDB Atlas
         :param connection_string: MongoDB Atlas connection string
-        :param db_name: Database name (Examsaathi_key)
+        :param db_name: Database name (niravpatel180503_db_user)
         """
         try:
             self.client = MongoClient(connection_string, serverSelectionTimeoutMS=5000)
