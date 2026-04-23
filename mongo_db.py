@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import pytz
 
 class MongoDBHandler:
-    def __init__(self, connection_string="mongodb+srv://aryan_raj:ARyan620501@cluster1.1dd7qyi.mongodb.net/", db_name="Examsaathi_key"):
+    def __init__(self, connection_string="mongodb+srv://niravpatel180503_db_user:vjWNaWhRk0gMSNyQ@cluster0.26bfgmf.mongodb.net/", db_name="niravpatel180503_db_user"):
         """
         Initialize MongoDB connection with MongoDB Atlas
         :param connection_string: MongoDB Atlas connection string
